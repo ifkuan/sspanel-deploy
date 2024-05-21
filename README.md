@@ -1,7 +1,6 @@
 
 ### 执行脚本
 ```
-bash
 wget -N --no-check-certificate https://github.com/ifkuan/sspanel-deploy/blob/master/deploy.sh && chmod +x deploy.sh && bash deploy.sh
 
 ```
