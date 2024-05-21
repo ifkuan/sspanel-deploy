@@ -1,11 +1,9 @@
 
 ### 执行脚本
 ```
-yum -y install wget
-rm -rf ./deploy.sh ./shadowsocks.log
-wget -N --no-check-certificate https://raw.githubusercontent.com/quniu/sspanel-deploy/master/deploy.sh
-chmod +x deploy.sh
-./deploy.sh 2>&1 | tee shadowsocks.log
+bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/quniu/sspanel-deploy/master/deploy.sh && chmod +x install.sh && bash install.sh
+
 ```
 
 ### 说明
